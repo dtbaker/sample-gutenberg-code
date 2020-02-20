@@ -1,0 +1,95 @@
+/**
+ * Colors
+ */
+/**
+ * Colors
+ */
+/**
+ * Often re-used variables
+ */
+/**
+ * Breakpoint mixins
+ */
+/**
+ * Long content fade mixin
+ *
+ * Creates a fading overlay to signify that the content is longer
+ * than the space allows.
+ */
+/**
+ * Button states and focus styles
+ */
+/**
+ * Applies editor left position to the selector passed as argument
+ */
+/**
+ * Styles that are reused verbatim in a few places
+ */
+/**
+ * Allows users to opt-out of animations via OS-level preferences.
+ */
+/**
+ * Reset default styles for JavaScript UI based pages.
+ * This is a WP-admin agnostic reset
+ */
+/**
+ * Reset the WP Admin page styles for Gutenberg-like pages.
+ */
+/**
+ * Breakpoints & Media Queries
+ */
+.embed-gutenberg {
+  margin: 40px;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ccc; }
+  .embed-gutenberg img {
+    max-width: 100%;
+    height: auto; }
+  .embed-gutenberg iframe {
+    width: 100%; }
+  .embed-gutenberg .components-navigate-regions {
+    height: 100%; }
+  .embed-gutenberg .components-drop-zone__provider {
+    display: flex; }
+  .embed-gutenberg__editor {
+    flex: 1;
+    font-family: "Noto Serif", serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #191e23; }
+    .embed-gutenberg__editor p {
+      font-size: inherit;
+      line-height: inherit; }
+    .embed-gutenberg__editor ul,
+    .embed-gutenberg__editor ol {
+      margin: 0;
+      padding: 0; }
+    .embed-gutenberg__editor ul li,
+    .embed-gutenberg__editor ol li {
+      margin-bottom: initial; }
+    .embed-gutenberg__editor ul {
+      list-style-type: disc; }
+    .embed-gutenberg__editor ol {
+      list-style-type: decimal; }
+    .embed-gutenberg__editor ul ul,
+    .embed-gutenberg__editor ol ul {
+      list-style-type: circle; }
+    .embed-gutenberg__editor .wp-block {
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto; }
+    .embed-gutenberg__editor .wp-block[data-align="wide"] {
+      max-width: 1100px; }
+    .embed-gutenberg__editor .wp-block[data-align="full"] {
+      max-width: none; }
+  .embed-gutenberg__sidebar {
+    flex: 0 0 280px;
+    border-left: 1px solid #e2e4e7;
+    height: auto;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    display: none; }
+    @media (min-width: 600px) {
+      .embed-gutenberg__sidebar {
+        display: block; } }
